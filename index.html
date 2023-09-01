@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Онлайн тест</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Онлайн Тест</h1>
+
+    <form id="quiz-form">
+      <div class="question">
+        <p>Питання 1: Яка столиця України?</p>
+        <ul class="options">
+          <li>
+            <label for="q1-option1">
+              <input type="radio" id="q1-option1" name="q1" value="Київ"> Київ
+            </label>
+          </li>
+       
+        </ul>
+      </div>
+
+
+      <button type="submit">Подати відповіді</button>
+    </form>
+    <div class="result">
+      <h2>Результати</h2>
+      <p id="quiz-result"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
